@@ -9,49 +9,44 @@ environment:
   sdk: '>=3.2.6 <4.0.0'
 
 dependencies:
+  bloc: ^8.1.4
+  cached_network_image: ^3.3.1
+  cloud_firestore: ^4.15.8
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  device_info: ^2.0.2
+  equatable: ^2.0.5
+  firebase_auth: ^4.17.8
+  firebase_core: ^2.27.0
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
-  flutter_screenutil: ^5.9.0
-  google_fonts: 6.1.0
-  equatable: ^2.0.5
-  dartz: ^0.10.1
-  injectable: ^2.3.5
-  get_it: ^7.7.0
-  bloc: ^8.1.4
   flutter_bloc: ^8.1.5
-  freezed: ^2.5.2
-  cached_network_image: ^3.3.1
-  http: ^1.2.0
-  firebase_core: ^2.27.0
-  firebase_auth: ^4.17.8
-  flutter_native_splash: ^2.2.16
-  cloud_firestore: ^4.15.8
-  geolocator: ^11.0.0
-  google_maps_flutter: ^2.5.0
-  url_launcher: ^6.2.6
-  device_info: ^2.0.2
   flutter_google_maps_webservices: ^1.1.1
-  flutter_polyline_points: ^2.0.0
-  geocoding: ^2.0.1
+  flutter_native_splash: ^2.2.16
   flutter_osm_plugin: 0.70.4
-  shared_preferences: ^2.2.3
-  flutter_tflite: ^1.0.1
-  image_picker: ^0.8.5+3
-  flutter_slidable: ^3.1.0
   flutter_phone_direct_caller: ^2.0.0
+  flutter_polyline_points: ^2.0.0
+  flutter_screenutil: ^5.9.0
+  flutter_slidable: ^3.1.0
+  flutter_tflite: ^1.0.1
+  freezed: ^2.5.2
   freezed_annotation: ^2.4.1
-
-
+  geocoding: ^2.0.1
+  geolocator: ^11.0.0
+  get_it: ^7.7.0
+  google_fonts: 6.1.0
+  google_maps_flutter: ^2.5.0
+  http: ^1.2.0
+  image_picker: ^0.8.5+3
+  injectable: ^2.3.5
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.2.6
 
 dependency_overrides:
   meta: ^1.11.0
 
-
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  injectable_generator: ^2.4.2
   build_runner: ^2.4.9
 
   # The "flutter_lints" package below contains a set of recommended lints to
@@ -60,10 +55,12 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  injectable_generator: ^2.4.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
-
 # The following section is specific to Flutter packages.
 flutter:
 
@@ -77,13 +74,10 @@ flutter:
     - assets/images/
     - assets/model/
   #   - images/a_dot_ham.jpeg
-
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
-
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
-
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a
