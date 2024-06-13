@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "263869122431",
+    "project_id": "memora-27b7d",
+    "storage_bucket": "memora-27b7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263869122431:android:227cfb26be1b0657b3bc4a",
+        "android_client_info": {
+          "package_name": "com.example.memora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZpdk1wv8o0zb3nazllGNFxNro8esXCyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
